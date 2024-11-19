@@ -1,0 +1,277 @@
+.App {
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+.intro-container {
+  background-color: #f5f5f5; 
+  color: #333; 
+  border: 1px solid #ddd; 
+  border-radius: 8px; 
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); 
+  text-align: left; 
+}
+
+.intro-title {
+  font-size: 24px; 
+  font-weight: bold; 
+  margin-bottom: 10px; 
+  color: #2a3d7d; 
+}
+
+.intro-description {
+  font-size: 16px; 
+  margin-bottom: 20px; 
+}
+
+.intro-subtitle {
+  font-size: 18px; 
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.intro-list {
+  list-style: none; 
+  padding: 0; }
+
+.intro-list li {
+  font-size: 16px; 
+  margin-bottom: 10px; 
+  display: flex;
+  align-items: center; 
+  gap: 10px; 
+}
+
+.intro-icon {
+  background-color: #e0e0e0; 
+  color: #333; 
+  border-radius: 50%; 
+  padding: 5px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px; 
+  height: 30px;
+  font-size: 14px; 
+  font-weight: bold;
+}
+
+.title {
+  font-size: 24px;
+  color: #2a3d7d;
+  margin-top: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+strong{
+  font-size: 20px;
+}
+
+
+.container {
+  display: flex;
+  gap: 20px;
+  justify-content: center; 
+  flex-wrap: wrap; 
+  margin: 20px auto;
+}
+
+.task-column {
+  flex: 1; 
+  max-width: 300px; 
+  border: 2px dashed #ddd;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.task-column h2 {
+  color: #2a3d7d;
+  margin-bottom: 10px;
+}
+
+.container ul li {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin: 20px;
+  
+  
+}
+
+.task-form-container {
+  background: #f9f9f9;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  max-width: 400px;
+  margin: 20px auto;
+  text-align: left;
+}
+
+.task-form-container label {
+  font-weight: bold;
+  display: block;
+  margin-top: 10px;
+}
+
+.task-form-container input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.task-form-container button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+#taskButton {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  margin-right: 10px;
+  cursor: pointer; 
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 0.8rem;
+  margin-bottom: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.task-item h3 {
+  font-size: 1rem;
+  color: #333;
+  margin: 0;
+}
+
+.task-item p {
+  font-size: 0.9rem;
+  color: #666;
+  margin: 0;
+}
+
+.task-item small {
+  font-size: 0.8rem;
+  color: #888;
+}
+
+.task-item div {
+  display: flex;
+  gap: 0.5rem;
+}
+.task-buttons-group {
+  display: flex;
+  flex-direction: column; 
+  gap: 10px;
+  align-items: center; 
+}
+
+
+.move-buttons {
+  display: flex;
+  gap: 10px; 
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: center; 
+  gap: 10px; 
+  margin-top: 10px;
+}
+
+
+button {
+  padding: 4px 8px;
+  border: none;
+  border-radius: 4px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.2s ease;
+}
+
+button:hover {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle hover effect */
+}
+
+/* Specific Button Styles */
+.move-button {
+  background-color: #007bff; /* Blue for Move buttons */
+  color: white;
+}
+
+.move-button:hover {
+  background-color: #0056b3;
+}
+
+.edit-button {
+  background-color: #4caf50; /* Green for Edit */
+  color: white;
+}
+
+.edit-button:hover {
+  background-color: #45a049;
+}
+
+.delete-button {
+  background-color: #f44336; /* Red for Delete */
+  color: white;
+}
+
+.delete-button:hover {
+  background-color: #d32f2f;
+}
+
+.task-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  display: flex; 
+  flex-direction: column; 
+  gap: 0.8rem;
+  overflow: hidden;
+  position: relative; 
+}
+
+.task-item:hover {
+  transform: translateY(-5px); /* Lift on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column; 
+    gap: 10px; 
+  }
+
+  .task-column {
+    max-width: 100%; 
+    margin: 10px auto; 
+  }
+}
